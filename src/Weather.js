@@ -48,12 +48,10 @@ export default function Weather() {
               alt={weatherData.description}
               className="float-left"
             />
-            <div className="float-left">
               <strong>{weatherData.temperature}</strong>
               <span className="units">
                 <a href="/">°C</a> | <a href="/">°F</a>
               </span>
-            </div>
           </div>
         </div>
         <div className="col-6">
