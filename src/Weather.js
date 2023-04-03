@@ -22,13 +22,14 @@ export default function Weather() {
               placeholder="Type a city.."
               className="form-control"
               autoComplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
             <input
               type="submit"
               value="Search"
-              className="btn btn-primary w-100"
+              className="btn btn-primary w-100 searchButton"
             />
           </div>
         </div>
@@ -40,7 +41,7 @@ export default function Weather() {
           <li>{weatherData.description}</li>
         </ul>
       </div>
-      <div className="row">
+      <div className="row currentWeather">
         <div className="col-6">
           <div className="clearfix weather-temperature">
             <img
@@ -48,10 +49,10 @@ export default function Weather() {
               alt={weatherData.description}
               className="float-left"
             />
-              <strong>{weatherData.temperature}</strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
+            <strong>{weatherData.temperature}</strong>
+            <span className="units">
+              <a href="/">°C</a> | <a href="/">°F</a>
+            </span>
           </div>
         </div>
         <div className="col-6">

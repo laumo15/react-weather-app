@@ -1,9 +1,26 @@
 .Weather {
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
-  width: 600px;
   text-align: left;
+  color: #E30C48;
+  background: linear-gradient(219.3deg, rgb(149, 0, 199) 4.7%, rgb(130, 0, 226) 22.9%, rgb(95, 0, 199) 43.2%, rgb(70, 0, 199) 63.9%, rgb(5, 0, 199) 85.1%, rgb(0, 95, 199) 106.8%);
+
+}
+
+.Weather h1{
+  font-family: 'VT323', monospace;
+}
+
+.Weather .currentWeather {
+  color: #61dafb;
+}
+
+.Weather ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Weather img {
+  vertical-align: top;
 }
 
 .Weather .overview {
@@ -17,7 +34,6 @@
 }
 
 .Weather .weather-temperature strong {
-  color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;

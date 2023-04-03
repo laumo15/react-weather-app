@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Weather />
         <footer>
           This project was coded by{" "}
@@ -25,7 +24,6 @@ function App() {
             GitHub
           </a>
         </footer>
-      </header>
     </div>
   )
 }
