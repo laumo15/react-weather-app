@@ -14,7 +14,7 @@ function App() {
           >
             Laura Morelli
           </a>{" "}
-          and is open sourced on {" "}
+          and is open-sourced on {" "}
           <a
             className="App-link"
             href="https://github.com/laumo15/react-weather-app"
@@ -22,7 +22,7 @@ function App() {
             rel="noopener noreferrer"
           >
             GitHub
-          </a>
+          </a>.
         </footer>
     </div>
   )
